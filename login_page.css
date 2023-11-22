@@ -65,7 +65,7 @@
 .login{
     position:absolute;
     top: 110px;
-    right: 450px;
+    right: 500px;
     font-size: 1.75rem;
     font-weight: bold;
     color:#709778;
@@ -137,7 +137,6 @@ input[type="submit"]:hover {
 }
 
 .lupa{
-
     position: absolute;
     display: flex;
     width: 30rem;

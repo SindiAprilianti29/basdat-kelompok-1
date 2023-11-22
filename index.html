@@ -28,7 +28,7 @@
     <div class="signup">
         Sign Up
     </div>
-    <form class="form-container">
+    <form class="form-container" action="prosessignup.php" method="POST">
         <label for="email">Email:</label>
         <input type="text" id="email" name="email">
 
@@ -46,5 +46,19 @@
     <div class="login-box">
         <a href="login_page.html"><button class="login-button">Login</button></a>
     </div>
+
+   <?php if(isset($_GET['status'])): ?>
+	<p>
+		<?php
+			if($_GET['status'] == 'sukses'){
+				echo "Signup succsess!";
+			} else {
+				echo "Signup failed!";
+			}
+		?>
+	</p>
+	<?php endif; ?>
+   
+
 </body>
 </html>

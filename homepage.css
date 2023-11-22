@@ -361,5 +361,58 @@ input[type="submit"]:hover {
         font-weight: bold;
         font-size: 18px;
     }  
+.gambar{
+    position:absolute;
+    left: 600px;
+}
 
+.content {
+    display: flex;
+    width: 34rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+}
+
+.content p {
+    margin-left: 100px;
+    margin-top: 180px;
+}
+
+.panas{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    margin: 100px;
+    top: 1460px;
+    right: 690px;
+    width: 380px;
+}
+
+.global {
+    position: absolute;
+    display: flex;
+    width: 90rem;
+    height: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    top: 1600px;
+    right: 230px;
+}
+
+.global p {
+    top:10px;
+    margin-left: 650px;
+    margin-top: 1px;
+    font-size: 18px;
+}
 

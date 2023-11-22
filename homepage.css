@@ -60,20 +60,20 @@
     padding-top: 10px;
 }
 
-.content {
+.yu {
     position: absolute;
     display: flex;
-    width: 50rem;
-    height: 20rem;
+    width: 80rem;
+    height: 18rem;
     flex-direction: column;
     justify-content: center;
     color:#709778;
     text-align: left
 }
 
-.content p {
+.yu p {
     top:50px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 10px;
     font-weight: bold;
     font-size: 22px;

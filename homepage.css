@@ -416,3 +416,155 @@ input[type="submit"]:hover {
     font-size: 18px;
 }
 
+.alam {
+    display: flex;
+    width: 34rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.alam p {
+    margin-left: 60px;
+    margin-top: 540px;
+}
+
+.al{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    margin: 100px;
+    top: 1650px;
+    right: 690px;
+    width: 380px;
+}
+
+.alamm {
+    position: absolute;
+    display: flex;
+    width: 90rem;
+    height: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    top: 1790px;
+    right: 230px;
+}
+
+.alamm p {
+    top:10px;
+    margin-left: 650px;
+    margin-top: 1px;
+}
+
+.isu{
+    display: flex;
+    width: 34rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.isu p {
+    margin-left: 60px;
+    margin-top: 700px;
+}
+
+.isuu{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    margin: 100px;
+    top: 1820px;
+    right: 690px;
+    width: 380px;
+}
+
+.issuu {
+    position: absolute;
+    display: flex;
+    width: 90rem;
+    height: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    top: 1950px;
+    right: 230px;
+}
+
+.issuu p {
+    top:10px;
+    margin-left: 650px;
+    margin-top: 1px;
+}
+
+.air{
+    display: flex;
+    width: 34rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.air p {
+    margin-left: 80px;
+    margin-top: 850px;
+}
+
+.airr{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    margin: 100px;
+    top: 1980px;
+    right: 690px;
+    width: 380px;
+}
+
+.aiirr {
+    position: absolute;
+    display: flex;
+    width: 90rem;
+    height: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    top: 2120px;
+    right: -420px;
+}
+
+.issuu p {
+    top:10px;
+    margin-left: 650px;
+    margin-top: 1px;
+}

@@ -37,7 +37,7 @@
     display: flex;
 }
 .right-side {
-    margin-left: 700px;
+    margin-left: 760px;
     display: flex;
     
 }
@@ -84,7 +84,7 @@
     width: 380px;
 }
 
-.motor{
+.moto{
     position: absolute;
     display: flex;
     width: 30rem;
@@ -99,7 +99,7 @@
     width: 100px;
 }
 
-.motorlistrik{
+.listrik{
     position: absolute;
     display: flex;
     width: 30rem;
@@ -114,7 +114,7 @@
     width: 100px;
 }
 
-.mobil{
+.Mobil{
     position: absolute;
     display: flex;
     width: 30rem;
@@ -129,7 +129,7 @@
     width: 100px;
 }
 
-.bus{
+.Bus{
     position: absolute;
     display: flex;
     width: 30rem;
@@ -143,65 +143,23 @@
     right: 320px;
     width: 100px;
 }
-
-.mot{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 160px;
-    right: 560px;
-    width: 380px;
+.opsi{
+    margin-top: 180px;
+    margin-left: 400px;
 }
-
-.lis{
+.sub {
     position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 160px;
-    right: 432px;
-    width: 380px;
+    padding: 10px 20px;
+    border: none;
+    top: 220px;
+    right: 500px;
+    border-radius: 5px;
+    background-color: #63b666;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.3s ease;
 }
-
-.mob{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 160px;
-    right: 310px;
-    width: 380px;
-}
-
-.buss{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 160px;
-    right: 180px;
-    width: 380px;}
 
 .form {
     position: absolute;
@@ -259,4 +217,107 @@
     top: 350px;
     right: 520px;
     width: 380px;
+}
+.karb{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: center;
+    margin: 100px;
+    top: 450px;
+    right: 380px;
+    width: 380px;
+}
+
+.nama{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    margin: 100px;
+    top: 520px;
+    right: 380px;
+    width: 380px;
+}
+
+.tanggal{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    margin: 100px;
+    top: 570px;
+    right: 380px;
+    width: 380px;
+}
+
+.tipe{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    margin: 100px;
+    top: 620px;
+    right: 380px;
+    width: 380px;
+}
+
+.tempuh{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    margin: 100px;
+    top: 670px;
+    right: 380px;
+    width: 380px;
+}
+
+.harian{
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color:#709778;
+    text-align: left;
+    margin: 100px;
+    top: 720px;
+    right: 380px;
+    width: 380px;
+}
+
+.login-button {
+    position: absolute;
+    padding: 10px 20px;
+    border: none;
+    top: 400px;
+    right: 520px;
+    border-radius: 5px;
+    background-color: #63b666;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.3s ease;
 }

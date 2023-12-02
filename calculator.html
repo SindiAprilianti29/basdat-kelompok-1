@@ -12,6 +12,7 @@
             <h2 class="logo">Carbon Away</h2>
         </div>
         <div class="right-side">
+            <a href="setting.html">Setting Akun</a>
             <a href="dashboard.html">Dashboard</a>
             <a href="homepage.html">Homepage</a>
         </div>
@@ -21,40 +22,23 @@
     </div>
     <div class="jenis">
         <p> Pilih jenis kendaraan yang digunakan </p>
+        <p> dan masukkan total jarak yang ditempuh </p>
     </div>
-    <div class="motor" id="motorElement">
-        <img src="bi_square.svg">
+    <div class="opsi">
+        <div class="calculator">
+            <label for="vehicle-type">Pilih jenis kendaraan:</label>
+            <select id="vehicle-type">
+              <option value="motorcycle">Sepeda Motor</option>
+              <option value="electric-car">Kendaraan Listrik</option>
+              <option value="car">Mobil</option>
+              <option value="bus">Bus</option>
+            </select>
     </div>
-    <div class="motorlistrik">
-        <img src="bi_square (1).svg">
-    </div>
-    <div class="mobil">
-        <img src="bi_square (2).svg">
-    </div>
-    <div class="bus">
-        <img src="bi_square (3).svg">
-    </div>
-    <div class="mot">
-        <p> motor </p>
-    </div>
-    <div class="lis">
-        <p> motor listrik </p>
-    </div>
-    <div class="mob">
-        <p> mobil </p>
-    </div>
-    <div class="buss">
-        <p> bus </p>
-    </div>
-    <form class="form">
-        <label for="jarak">Jarak yang ditempuh (KM)</label>
-        <input type="text" id="jarak" name="jarak">
-    </form>
-   <div class="jejak">
-    <p> Jejak karbon yang dihasilkan </p>
-   </div>
-    <div class="kotak">
-        <img src="arcticons_square.svg">
-    </div>
+    <div class="dis">  <label for="distance">Jarak yang ditempuh (KM):</label>
+        <input type="number" id="distance" placeholder="Masukkan jarak"> </div>
+    <div class="hitung"> <button id="calculate">Hitung</button></div>
+    <div id="result">Jejak Karbon yang dihasilkan: <span id="carbon-footprint">0</span></div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +15,23 @@
             <h2 class="logo">Carbon Away</h2>
         </div>
         <div class="right-side">
-            <a href="homepage.html">About Us</a>
-            <a href="homepage.html">Benefit</a>
-            <a href="login_page.html">LOGIN</a>
+            <a href="homepage.php">Homepage</a>
+            <a href="dashboard.php">Dashboard</a>
+            <a href="calculator.php">Calculator</a>
+            <a href="homepage.php">About Us</a>
+            <a href="homepage.php">Benefit</a>
+            <?php
+    // Tampilkan tulisan khusus untuk pengguna yang belum login
+    if (!isset($_SESSION['username'])) {
+        echo '<a href="login_page.php">LOGIN</a>';
+    }
+    ?>
+            <?php
+    // Tampilkan tulisan khusus untuk pengguna yang belum login
+    if (isset($_SESSION['username'])) {
+        echo '<a href="logout.php">LOGOUT</a>';
+    }
+    ?>
         </div>
     </nav>
     <div class="yu">
@@ -23,9 +40,14 @@
         <p> menguranginya! </p>
     </div>
 
-    <a href="index.html">
+    <?php
+    // Tampilkan tulisan khusus untuk pengguna yang belum login
+    if (!isset($_SESSION['username'])) {
+        echo '
+    ?><a href="index.php">
         <input type="submit" value="Buat Akun">
-    </a>
+    </a>';
+    }
     <div class="gambar">
         <img src="bumii.svg" width="720px" height="400px">
     </div>

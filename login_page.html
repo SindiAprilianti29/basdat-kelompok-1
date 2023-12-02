@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login">
         Login
     </div>
-    <!-- Tampilkan pesan kesalahan -->
+     <!-- Tampilkan pesan kesalahan -->
     <?php if (!empty($pesan_eror)) { ?>
         <p style="color: red;"><?php echo $pesan_eror; ?></p>
     <?php } ?>
@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php if (!empty($pesan_login)) { ?>
         <p style="color: red;"><?php echo $pesan_eror; ?></p>
     <?php } ?>
-    <form class="form-container">
+    <form class="form-container" action="login_page.php" method="POST">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username">
 
@@ -83,13 +83,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p> Ingat saya</p>
     </div>
     <div class="lupa">
-        <a href="forgot.html">Lupa kata sandi?</a>
+        <a href="forgot.php">Lupa kata sandi?</a>
     </div>
     <div class="google">
         <p> atau kamu bisa bergabung menggunakan</p>
     </div>
     <div class="reg">
-        <a href="index.html">Belum punya akun? Klik di sini untuk daftar sekarang!</a>
+        <a href="index.php">Belum punya akun? Klik di sini untuk daftar sekarang!</a>
     </div>
     <div class="logogoogle">
         <img src="flat-color-icons_google (1).svg" width="30px" height="30px">

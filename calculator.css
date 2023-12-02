@@ -36,11 +36,8 @@
     display: flex;
 }
 .right-side {
-<<<<<<< HEAD
     margin-left: 600px;
-=======
-    margin-left: 760px;
->>>>>>> 3bddb63bb6f61bb0a45f0812d458e01951ed0a4c
+    margin-left: 720px;
     display: flex;
     
 }
@@ -87,8 +84,6 @@
     width: 380px;
 }
 
-<<<<<<< HEAD
-
 .opsi{
     margin-top: 180px;
     margin-left: 400px;
@@ -100,7 +95,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px;
+    width: 280px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -108,100 +103,10 @@
     position:absolute;
     margin: 100px;
     top: 120px;
-    right: 390px;
-=======
-.moto{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 100px;
-    right: 700px;
-    width: 100px;
+    right: 400px;
+    color:#709778
 }
-
-.listrik{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 100px;
-    right: 575px;
-    width: 100px;
-}
-
-.Mobil{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 100px;
-    right: 450px;
-    width: 100px;
-}
-
-.Bus{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 100px;
-    right: 320px;
-    width: 100px;
-}
-.opsi{
-    margin-top: 180px;
-    margin-left: 400px;
-}
-.sub {
-    position: absolute;
-    padding: 10px 20px;
-    border: none;
-    top: 220px;
-    right: 500px;
-    border-radius: 5px;
-    background-color: #63b666;
-    color: white;
-    cursor: pointer;
-    border-radius: 15px 15px 15px 15px;
-    transition: background-color 0.3s ease;
-}
-
-.form {
-    position: absolute;
-    margin: 100px;
-    top: 280px;
-    right: 500px;
->>>>>>> 3bddb63bb6f61bb0a45f0812d458e01951ed0a4c
-    width: 300px;
-    padding: 15px ;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #4caf50;
-  }
-
-
-.hitung {
+.hitung{
     width: 250px;
     margin: 50px auto;
     padding: 20px;
@@ -223,7 +128,7 @@
     border: none; 
   }
 
-  .hitung-button {
+.hitung-button {
     position: absolute;
     padding: 10px 20px;
     border: none;
@@ -246,21 +151,16 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px;
+    width: 280px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     position:absolute;
     margin: 100px;
-<<<<<<< HEAD
-    top: 190px;
-    right: 390px;
-    width: 300px;
-    padding: 15px ;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #4caf50;
+    top: 210px;
+    right: 400px;
+    color:#709778
   }
 #result {
     width: 250px;
@@ -270,9 +170,9 @@
     border-radius: 5px;
     position:absolute;
     margin: 100px;
-    top: 340px;
-    right: 390px;
-    width: 300px;
+    top: 370px;
+    right: 400px;
+    width: 290px;
     padding: 15px ;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -280,112 +180,23 @@
   }
 select option{
     color: #4caf50;
-=======
-    top: 350px;
-    right: 520px;
-    width: 380px;
-}
-.karb{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: center;
-    margin: 100px;
-    top: 450px;
-    right: 380px;
-    width: 380px;
 }
 
-.nama{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: left;
-    margin: 100px;
-    top: 520px;
-    right: 380px;
-    width: 380px;
-}
-
-.tanggal{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: left;
-    margin: 100px;
-    top: 570px;
-    right: 380px;
-    width: 380px;
-}
-
-.tipe{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: left;
-    margin: 100px;
-    top: 620px;
-    right: 380px;
-    width: 380px;
-}
-
-.tempuh{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: left;
-    margin: 100px;
-    top: 670px;
-    right: 380px;
-    width: 380px;
-}
-
-.harian{
-    position: absolute;
-    display: flex;
-    width: 30rem;
-    height: 6rem;
-    flex-direction: column;
-    justify-content: center;
-    color:#709778;
-    text-align: left;
-    margin: 100px;
-    top: 720px;
-    right: 380px;
-    width: 380px;
-}
-
-.login-button {
-    position: absolute;
-    padding: 10px 20px;
-    border: none;
-    top: 400px;
-    right: 520px;
+#calculate{
+    width: 250px;
+    margin: 50px auto;
+    padding: 20px;
     border-radius: 5px;
-    background-color: #63b666;
-    color: white;
-    cursor: pointer;
-    border-radius: 15px 15px 15px 15px;
-    transition: background-color 0.3s ease;
->>>>>>> 3bddb63bb6f61bb0a45f0812d458e01951ed0a4c
+    position:absolute;
+    margin: 100px;
+    top: -50px;
+    right: -72px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+.calculate-box:hover {
+    background-color: #45a049;
 }

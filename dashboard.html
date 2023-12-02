@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +16,24 @@
         </div>
         <div class="right-side">
          <div class="right-side">
-            <a href="setting.html">Setting Akun</a>
-            <a href="homepage.html">Homepage</a>
-            <a href="calculator.html">Calculator</a>
-            <a href="homepage.html">Recommendation</a>
+            <a href="dashboard.php">Tracker</a>
+            <a href="homepage.php">Scoreboard</a>
+            <a href="homepage.php">Achievement</a>
+            <a href="homepage.php">Recommendation</a>
         </div>
     </nav>
     <div class="reset">
-        <p> Halo user~</p>
+        <p> Halo <?php
+    // Tampilan tulisan khusus untuk pengguna yang sudah login
+     if (isset($_SESSION['username'])) {echo $_SESSION['username'];
+     }
+     ?>
+            <?php
+    // Tampilkan tulisan khusus untuk pengguna yang belum login
+    if (!isset($_SESSION['username'])) {
+        echo '<a>user</a>';
+    }
+    ?></p>
         <p> Ayo lacak pengeluaran karbonmu disini!</p> 
     </div>
     <div class="orang">
